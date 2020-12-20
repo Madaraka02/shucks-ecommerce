@@ -1,0 +1,118 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    text-decoration: none; 
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (min-width: 992px) {
+    .header__icon{
+        display: none;
+    }
+  
+}
+/* @media only screen and (max-width: 600px){
+    .header__searchInput{
+        display: none;
+    }
+    .header__searchIcon{
+        display: none;
+    }
+
+} */
+.header__link{
+    text-decoration: none;
+}
+.header__logo{
+    width: 200px;
+    height: 70px;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.header__basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: black;
+    font-size: large;
+}
+.header__basketCount:hover{
+    color: orange;
+}
+.basket{
+    color: black !important;
+}
+
+.basket:hover{
+    color: orange;
+}
+.header__middle{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 100%;
+    border-radius: 20px;
+    outline-width: 0;
+}
+.header__searchIcon{
+    margin-left: -30px;
+    color: gray !important;
+}
+.header > input{
+    flex: 1;
+
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    color: black !important;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+    .header__middle{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+  }
+  
+
+/* .header__search{
+    display: flex;
+    flex: 1;
+}
+.header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 100%;
+}
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: white;
+    border: 1px solid lightgray;
+} */

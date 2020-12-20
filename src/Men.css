@@ -1,0 +1,22 @@
+.men{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.menCasual__title{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: large;
+    margin-top: 20px;
+    float: left;
+    font-weight: 800;
+}
+hr{
+    width: 900px;
+    margin-left: 100px;
+}
+@media only screen and (max-width: 600px) {
+    hr {
+      display: none;
+    }
+  }

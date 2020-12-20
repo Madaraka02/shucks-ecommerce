@@ -1,0 +1,26 @@
+.womenCasual{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.womenCasual__title{
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .womenCasual {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+  }

@@ -1,0 +1,42 @@
+.slides{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+.slides__image{
+    height: 180px;
+    width: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin: 30px 10px 20px 10px;
+}
+.slides__image:hover{
+    box-shadow: 0 0 100px 15px rgba(0, 0, 0, 0.06);
+    opacity: 80%;
+}
+.slides__info{
+    object-fit: contain  ;
+}
+.slides__title{
+    margin: 5px 5px 5px 5px;
+
+}
+.slides__price{
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 300;
+}
+.slides__button{
+    border-radius: 10px;
+    outline-width: 0;
+}
+.slides__button:hover{
+    background-color: orange;
+    color: white;
+}

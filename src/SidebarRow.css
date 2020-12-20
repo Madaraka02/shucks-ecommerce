@@ -1,0 +1,27 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebarRow:hover{
+    background-color: #ffbf00;
+}
+.sidebarRow > h4{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 1px;
+}
+.sidebarRow:hover{
+    color:white;
+}
+/* @media only screen and (max-width: 600px) {
+    .sidebarRow {
+      display: none;
+    }
+  } */

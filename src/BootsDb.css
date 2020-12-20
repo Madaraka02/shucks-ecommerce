@@ -1,0 +1,42 @@
+.bootsDb{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+.bootsDb__image{
+    height: 180px;
+    width: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin: 30px 10px 20px 10px;
+}
+.bootsDb__image:hover{
+    box-shadow: 0 0 100px 15px rgba(0, 0, 0, 0.06);
+    opacity: 80%;
+}
+.bootsDb__info{
+    object-fit: contain  ;
+}
+.bootsDb__title{
+    margin: 5px 5px 5px 5px;
+
+}
+.bootsDb__price{
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 300;
+}
+.bootsDb__button{
+    border-radius: 10px;
+    outline-width: 0;
+}
+.bootsDb__button:hover{
+    background-color: orange;
+    color: white;
+}

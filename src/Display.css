@@ -1,0 +1,16 @@
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.display__title{
+    letter-spacing: 3px;
+    font-size: medium;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+hr{
+    width: 700px;
+    margin-left: 200px;
+}
